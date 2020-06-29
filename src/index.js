@@ -1,7 +1,7 @@
 'use strict';
 const k2c = require('koa2-connect');
 const { createProxyMiddleware } = require('http-proxy-middleware');
-const { match } = require('./match');
+const match = require('./match');
 
 module.exports = function(options = {}) {
   return async function(ctx, next) {

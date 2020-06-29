@@ -1,7 +1,7 @@
 const isGlob = require('is-glob');
 const micromatch = require('micromatch');
 
-export function match(context, path) {
+module.exports = function(context, path) {
   // single path
   if (!isGlob(context)) {
     return path.indexOf(context) === 0;;
