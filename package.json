@@ -18,9 +18,12 @@
     "url": "git+https://github.com/daysai/egg-http-proxy-middleware.git"
   },
   "keywords": [
-    "http",
     "proxy",
-    "egg"
+    "http-proxy",
+    "http-proxy-middleware",
+    "egg",
+    "egg-proxy",
+    "egg-middleware"
   ],
   "author": "daysai",
   "license": "ISC",
