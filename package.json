@@ -17,6 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/daysai/egg-http-proxy-middleware.git"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "proxy",
     "http-proxy",
