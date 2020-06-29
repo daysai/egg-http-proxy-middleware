@@ -1,0 +1,31 @@
+{
+  "name": "egg-http-proxy-middleware",
+  "version": "0.1.0",
+  "description": "http-proxy-middleware for egg",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daysai/egg-http-proxy-middleware.git"
+  },
+  "keywords": [
+    "http",
+    "proxy",
+    "egg"
+  ],
+  "author": "daysai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daysai/egg-http-proxy-middleware/issues"
+  },
+  "homepage": "https://github.com/daysai/egg-http-proxy-middleware#readme",
+  "dependencies": {
+    "http-proxy-middleware": "^1.0.4",
+    "is-glob": "^4.0.1",
+    "koa2-connect": "^1.0.2",
+    "micromatch": "^4.0.2"
+  }
+}
