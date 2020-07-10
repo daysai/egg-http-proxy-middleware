@@ -2,12 +2,12 @@ import c2k = require('koa-connect');
 import { createProxyMiddleware, Options as ContextOptions } from 'http-proxy-middleware';
 import { match } from './match';
 
-interface Options {
-  [contextName: string]: any;
+export interface Options {
+  [contextName: string]: ContextOptions;
 }
 
 export default function (options: Options) {
-  return async function (ctx, next) {
+  return async (ctx, next) => {
     for (const context of Object.keys(options)) {
       if (match(context, ctx.path)) {
         const contextOptions: ContextOptions = options[context];
