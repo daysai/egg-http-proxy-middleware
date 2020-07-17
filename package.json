@@ -1,6 +1,6 @@
 {
   "name": "egg-http-proxy-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "http-proxy-middleware for egg",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
