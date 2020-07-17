@@ -30,9 +30,8 @@ export default function (options: Options) {
             },
           }) as any
         )(ctx, next);
-      } else {
-        await next();
       }
     }
+    await next();
   };
 }

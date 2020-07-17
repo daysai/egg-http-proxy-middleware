@@ -8,6 +8,6 @@ export function match(context: string, path: string): boolean {
   } else {
     // single glob path
     const matches = micromatch([path], context);
-    return matches && matches.length > 0;
+    return matches?.length > 0;
   }
 }
