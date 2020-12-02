@@ -17,7 +17,7 @@ npm i egg-http-proxy-middleware --save
 ### Register
 
 ```js
-// {app_root}/middleware/proxy.js
+// {app_root}/app/middleware/proxy.js
 'use strict';
 
 module.exports = require('egg-http-proxy-middleware');
