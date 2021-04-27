@@ -29,7 +29,7 @@
     "egg-middleware"
   ],
   "author": "daysai",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/daysai/egg-http-proxy-middleware/issues"
   },
